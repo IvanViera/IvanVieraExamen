@@ -11,11 +11,13 @@
     <body>
        <center>
             <h1 class="title">Spanish Quotes Generetor</h1>
-            <input id="suggestions"class="minimalist_input">
+            <input class="minimalist_input" id="info" oninput="loadquotes()">
        
             <div id="suggestions" class="suggestions_panel">
                     <!-- SEARCH RESULTS GO HERE -->
-                    <p> [NO RESULTS] </p>
+                    <p id="demo"> 
+                        <!-- Esto lo añado con AJAX-->
+                    </p>
             </div>
        </center>
     </body>
